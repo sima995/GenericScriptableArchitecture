@@ -60,7 +60,7 @@
 #if UNITY_EDITOR
             return SerializationHelper.CreateCopy(originalValue);
 #else
-            return null;
+            return originalValue;
 #endif
         }
     }
